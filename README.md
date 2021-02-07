@@ -13,7 +13,8 @@ Here I trianed models using AutoML and Hyperdrive after which I deployed the bes
 
 ## Dataset
 
-The original dataset is in Kaggle Datasets.
+The original dataset is in [Kaggle Datasets.](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+The original data is licensed by Open Database License (ODbL) 1.0.[Open Database License (ODbL) 1.0.](https://opendatacommons.org/licenses/dbcl/1.0/)
 
 This data is about fraud detection in credit card transactions. The data was made by credit cards in September 2013 by European cardholders. The dataset is highly unbalanced, the positive class which depicts fraudulent transactions (frauds) account for 0.17% of all transactions.
 
@@ -22,7 +23,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 #### Here goes my
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+This project aims to detect potential fraud cases is credit card transactions and the task here is to differentiate between them. My ultimate intent is to tackle this situation by building classification models to classify and distinguish fraud transactions.
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
