@@ -126,7 +126,6 @@ Below are screenshots which demonstratethe overview of the deployed model and in
 ![result](https://user-images.githubusercontent.com/65784601/107159922-57dad400-6993-11eb-9e66-a20002b67ac3.png)
 ![endpint](https://user-images.githubusercontent.com/65784601/107159925-5c9f8800-6993-11eb-89c1-3de6bca5418a.png)
 
-![deploted](https://user-images.githubusercontent.com/65784601/107159928-62956900-6993-11eb-8e18-fb9d7f27f0cd.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
