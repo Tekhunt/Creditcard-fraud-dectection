@@ -29,8 +29,9 @@ This project aims to detect potential fraud cases is credit card transactions an
 The data is first loaded into this project repository and through this [link](https://media.githubusercontent.com/media/Tekhunt/Creditcard-fraud-dectection/master/fraud-data.csv) which points to the raw data in my repository I accessed it in different notebooks and scripts where it was used.
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+##### Image below shows the AML Congiguration and Settings used in this project.
 ![aml settings](https://user-images.githubusercontent.com/65784601/107156857-045f8a80-6981-11eb-838f-a80efd9c39c2.png)
+
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
