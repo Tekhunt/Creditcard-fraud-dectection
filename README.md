@@ -1,5 +1,5 @@
 
-# Credit Card Fraud Detection
+# Credit Card Fraud Detection using Azure Machine Learning
 
 This project aims to detect potential fraud cases is credit card transactions and the task here is to differentiate between them. My ultimate intent is to tackle this situation by building classification models to classify and distinguish fraud transactions. here I trianed models using AutoML and Hyperdrive after which I deployed the best model which in the case is the AutoML model
 
