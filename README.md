@@ -30,6 +30,7 @@ The data is first loaded into this project repository and through this [link](ht
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+![flow1](https://user-images.githubusercontent.com/65784601/107155333-1983eb80-6978-11eb-882a-7981b906c914.png)
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
