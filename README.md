@@ -73,6 +73,9 @@ The type of task to run. Values the here is 'classification'
 
 The votingEmsemble gave the best model with an accuracy of 0.9996. The data used in this experiment is highly skewed and i suggest that in the futere beter ways of handling this  kind of skeed dataset should be applied o further improve the model. Additionally, employinhg deep model algorithm will yield significanrt imprrovement, so I highly recommend it.
 
+![run1](https://user-images.githubusercontent.com/65784601/107157936-3d9af900-6987-11eb-920b-b7a81aad7a71.png)
+![service](https://user-images.githubusercontent.com/65784601/107157941-44297080-6987-11eb-953c-3eb37a2cb122.png)
+
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
