@@ -13,18 +13,18 @@ from azureml.core import Dataset
 
 # TODO: Create TabularDataset using TabularDatasetFactory
 # Data is located at:
-# "https://raw.githubusercontent.com/Tekhunt/ML-Project/master/loands.csv"
+# "https://media.githubusercontent.com/media/Tekhunt/Creditcard-fraud-dectection/master/fraud-data.csv"
 
 
 def my_dataset(data):
     
     x_data = data.to_pandas_dataframe().copy()
-    y_data = x_data.pop('Loan_Status')
+    y_data = x_data.pop('Class')
     return x_data, y_data
 
 
 
-data_path = "https://raw.githubusercontent.com/Tekhunt/ML-Project/master/loands.csv"
+data_path = "https://media.githubusercontent.com/media/Tekhunt/Creditcard-fraud-dectection/master/fraud-data.csv"
 
 ### YOUR CODE HERE ###
 #data = Dataset.Tabular.from_delimited_files(path=data_path)
