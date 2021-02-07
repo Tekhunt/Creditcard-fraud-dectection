@@ -94,8 +94,15 @@ Once completed we create the SKLearn estimator
 I then defined the hyperdrive configuration and submitted the experiment
 
 ### Results
+The best model gave an accuracy of 0.998.
+![completed run](https://user-images.githubusercontent.com/65784601/107159350-b43bf480-698f-11eb-8215-704760ac6301.png)
+![hrundetails](https://user-images.githubusercontent.com/65784601/107159356-b69e4e80-698f-11eb-993f-d59c1906c316.png)
+![accuracy](https://user-images.githubusercontent.com/65784601/107159362-be5df300-698f-11eb-9036-5ec9370cc9ce.png)
+![run](https://user-images.githubusercontent.com/65784601/107159380-dd5c8500-698f-11eb-91c9-90f4d52b57e3.png)
+### View in Azure ML Studio
+![azure view](https://user-images.githubusercontent.com/65784601/107159363-c74ec480-698f-11eb-83b3-b54716144784.png)
 
-
+This experiment can be improved using a different algorithm, using differnet features and also adding more iteration in the hyperdrive configuration which can deliver a better result.
 *TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
