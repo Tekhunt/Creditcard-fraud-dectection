@@ -109,7 +109,7 @@ This experiment can be improved using a different algorithm, using differnet fea
 
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+Below are screenshots which demonstratethe overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
