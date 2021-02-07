@@ -6,6 +6,7 @@ This project aims to detect potential fraud cases is credit card transactions an
 ![step](https://user-images.githubusercontent.com/65784601/107155161-1a684d80-6977-11eb-9c10-0709a37f2aac.jpg)
 Here I trianed models using AutoML and Hyperdrive after which I deployed the best model which in the case is the AutoML model
 
+#### Steps from data acquisition to model deployment.
 ![flow1](https://user-images.githubusercontent.com/65784601/107155333-1983eb80-6978-11eb-882a-7981b906c914.png)
 
 
