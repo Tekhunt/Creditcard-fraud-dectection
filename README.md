@@ -2,7 +2,7 @@
 
 # Credit Card Fraud Detection
 
-*TODO:* Write a short introduction to your project.
+This project aims to detect potential fraud cases is credit card transactions and the task here is to differentiate between them. My ultimate intent is to tackle this situation by building classification models to classify and distinguish fraud transactions. here I trianed models using AutoML and Hyperdrive after which I deployed the best model which in the case is the AutoML model
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
