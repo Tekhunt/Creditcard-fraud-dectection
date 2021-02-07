@@ -81,10 +81,21 @@ The votingEmsemble gave the best model with an accuracy of 0.9996. The data used
 
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
+
+![hpt](https://user-images.githubusercontent.com/65784601/107158728-64a7f980-698c-11eb-930b-fedeb76cdfe1.png)
+LogisticRegression is the algorithm used in this classification task. The algorithm is a two class classification to predict between two categories(fraudulent or not fraudulent). And To improve the model we optimized the hyperparameters using the powers of Azure Machine Learning's Hyperdrive
+
+The hyperparameter space defined implies tuning the C and max_iter parameters. Random sampling, which supports discrete and continuous hyperparameters was used and the primary metric to optimize was accuracy and the the goal was to maximize.
+
+Early termination policy was Bandit Policy and the parameters are slack_factor and evaluation_interval. A slack factor equal to 0.1 as criteria for evaluation to conserve resources by terminating runs where the primary metric is not within the specified slack factor/slack amount compared to the best performing run.
+Once completed we create the SKLearn estimator
+
+I then defined the hyperdrive configuration and submitted the experiment
 
 ### Results
+
+
 *TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
