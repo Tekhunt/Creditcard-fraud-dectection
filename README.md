@@ -26,7 +26,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 This project aims to detect potential fraud cases is credit card transactions and the task here is to differentiate between them. My ultimate intent is to tackle this situation by building classification models to classify and distinguish fraud transactions. Detecting potential frauds so that customers are not charged for items that they did not purchase is the key objective of this project. So the goal is to build a classifier that tells if a transaction is a fraud or not.
 
 ### Access
-The data is first loaded into this project repository and through this link https://media.githubusercontent.com/media/Tekhunt/Creditcard-fraud-dectection/master/fraud-data.csv it was accessed in different notebooks and scripts where it was used.
+The data is first loaded into this project repository and through this [link](https://media.githubusercontent.com/media/Tekhunt/Creditcard-fraud-dectection/master/fraud-data.csv) which points to the raw data in my repository I accessed it in different notebooks and scripts where it was used.
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
