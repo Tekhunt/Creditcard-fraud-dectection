@@ -111,6 +111,16 @@ This experiment can be improved using a different algorithm, using differnet fea
 ## Model Deployment
 Below are screenshots which demonstratethe overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
+![downoad](https://user-images.githubusercontent.com/65784601/107159901-3b3e9c00-6993-11eb-9a52-fa77cf838b0a.png)
+![envi](https://user-images.githubusercontent.com/65784601/107159910-42fe4080-6993-11eb-8f5c-6382f0622c36.png)
+![service](https://user-images.githubusercontent.com/65784601/107159916-485b8b00-6993-11eb-8713-10c9c37d496d.png)
+![uri](https://user-images.githubusercontent.com/65784601/107159918-4db8d580-6993-11eb-8df8-a5b39512e951.png)
+![sampledata](https://user-images.githubusercontent.com/65784601/107159919-527d8980-6993-11eb-881c-ac8a34e1aac3.png)
+![result](https://user-images.githubusercontent.com/65784601/107159922-57dad400-6993-11eb-9e66-a20002b67ac3.png)
+![endpint](https://user-images.githubusercontent.com/65784601/107159925-5c9f8800-6993-11eb-89c1-3de6bca5418a.png)
+
+![deploted](https://user-images.githubusercontent.com/65784601/107159928-62956900-6993-11eb-8e18-fb9d7f27f0cd.png)
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 - A working model
