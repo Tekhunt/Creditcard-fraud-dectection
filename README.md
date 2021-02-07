@@ -32,6 +32,42 @@ The data is first loaded into this project repository and through this [link](ht
 ##### Image below shows the AML Congiguration and Settings used in this project.
 ![aml settings](https://user-images.githubusercontent.com/65784601/107156857-045f8a80-6981-11eb-838f-a80efd9c39c2.png)
 
+### n_cross-validation
+How many cross validations to perform when user validation data is not specified.
+
+### enable_early_stopping
+Whether to enable early termination if the score is not improving in the short term. The default is False but it is set to True here.
+
+### experiment_timeout_minutess
+Maximum amount of time in minutes that all iterations combined can take before the experiment terminates.
+It is set to 15 minutes here.
+
+### verbosity
+This is the verbosity level for writing to the log file and it is set to logging.INFO
+
+### training_data 
+This can be any of these: DataFrame or Dataset or DatasetDefinition or TabularDataset
+The training data to be used within the experiment. It should contain both training features and a label column (optionally a sample weights column). If training_data is specified, then the label_column_name parameter must also be specified. 
+
+### label_column_name
+This is the name of the label column. If the input data is from a pandas.DataFrame which doesn't have column names, column indices can be used instead, expressed as integers.
+Here we have column headers and our arget column is the Class column which we aim to predict in the project.
+
+### max_cores_per_iteration
+The maximum number of threads to use for a given training iteration. Acceptable values:
+Equal to -1, which means to use all the possible cores per iteration per child-run.
+
+### max_concurrent_iterations
+Represents the maximum number of iterations that would be executed in parallel. The value used here is 4 
+
+### compute_target
+The Azure Machine Learning compute target to run the Automated Machine Learning experiment on.
+
+### primary_metric
+The metric that Automated Machine Learning will optimize for model selection. Accuracy is the primary_metric here.
+
+### task
+The type of task to run. Values the here is 'classification'
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
