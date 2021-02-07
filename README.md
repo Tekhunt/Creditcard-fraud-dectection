@@ -72,9 +72,12 @@ The type of task to run. Values the here is 'classification'
 ### Results
 
 The votingEmsemble gave the best model with an accuracy of 0.9996. The data used in this experiment is highly skewed and i suggest that in the futere beter ways of handling this  kind of skeed dataset should be applied o further improve the model. Additionally, employinhg deep model algorithm will yield significanrt imprrovement, so I highly recommend it.
-
+### RunDetails output
 ![run1](https://user-images.githubusercontent.com/65784601/107157936-3d9af900-6987-11eb-920b-b7a81aad7a71.png)
 ![details_LI](https://user-images.githubusercontent.com/65784601/107158249-34129080-6989-11eb-9fd2-0a1b1630e6a0.jpg)
+
+### View in Azure Ml Studio
+![azure view](https://user-images.githubusercontent.com/65784601/107158376-d6327880-6989-11eb-814e-48f06f63d693.png)
 
 
 ## Hyperparameter Tuning
