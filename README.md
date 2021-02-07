@@ -97,7 +97,10 @@ I then defined the hyperdrive configuration and submitted the experiment
 The best model gave an accuracy of 0.998.
 ![completed run](https://user-images.githubusercontent.com/65784601/107159350-b43bf480-698f-11eb-8215-704760ac6301.png)
 ![hrundetails](https://user-images.githubusercontent.com/65784601/107159356-b69e4e80-698f-11eb-993f-d59c1906c316.png)
-The best model was generated using this hyperparameters Regularization strenght of 1.0, max_iter = '150 with an accuracy of 0.9988'
+
+
+##### The best model was generated using Regularization strenght of '1.0', max_iter = '150' which gave an accuracy of '0.9988' as shown in the screenshot below.
+
 ![accuracy](https://user-images.githubusercontent.com/65784601/107159362-be5df300-698f-11eb-9036-5ec9370cc9ce.png)
 ### View in Azure ML Studio
 ![azure view](https://user-images.githubusercontent.com/65784601/107159363-c74ec480-698f-11eb-83b3-b54716144784.png)
