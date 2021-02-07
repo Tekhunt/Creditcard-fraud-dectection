@@ -1,6 +1,6 @@
 
 # Credit Card Fraud Detection using Azure Machine Learning
-
+Fraud detection in financial transactions is one of the most important problems in financial companies.
 ![torch](https://user-images.githubusercontent.com/65784601/107155162-1b997a80-6977-11eb-9f83-18592722559d.jpg)
 This project aims to detect potential fraud cases is credit card transactions and the task here is to differentiate between them. My ultimate intent is to tackle this situation by building classification models to classify and distinguish fraud transactions.
 ![step](https://user-images.githubusercontent.com/65784601/107155161-1a684d80-6977-11eb-9c10-0709a37f2aac.jpg)
@@ -13,8 +13,11 @@ Here I trianed models using AutoML and Hyperdrive after which I deployed the bes
 
 ## Dataset
 
-### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+The original dataset is in Kaggle Datasets.
+
+This data is about fraud detection in credit card transactions. The data was made by credit cards in September 2013 by European cardholders. The dataset is highly unbalanced, the positive class which depicts fraudulent transactions (frauds) account for 0.17% of all transactions.
+
+It contains only numerical input variables which are the result of a PCA transformation. The original features and more background information about the data is not provided.
 
 #### Here goes my
 
