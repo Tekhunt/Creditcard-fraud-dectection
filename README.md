@@ -143,7 +143,7 @@ Below are screenshots which demonstratethe overview of the deployed model and in
 
 
 ## Screen Recording
-https://youtu.be/9_gKVBOlQnE
+https://youtu.be/wJ5l3GzWEVM
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
