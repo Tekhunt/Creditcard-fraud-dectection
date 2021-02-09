@@ -81,7 +81,9 @@ The votingEmsemble gave the best model with an accuracy of 0.9996. The data used
 ![aml run id_LI](https://user-images.githubusercontent.com/65784601/107300622-2d177b00-6a7a-11eb-8612-f45f60e391d4.jpg)
 ![aml run id](https://user-images.githubusercontent.com/65784601/107300624-2ee13e80-6a7a-11eb-97fa-42dd1c1291dc.png)
 ### View in Azure Ml Studio
-![azure view](https://user-images.githubusercontent.com/65784601/107158376-d6327880-6989-11eb-814e-48f06f63d693.png)
+
+![view in azure](https://user-images.githubusercontent.com/65784601/107301089-06a60f80-6a7b-11eb-8ad4-4d88b952955e.png)
+
 
 
 ## Hyperparameter Tuning
