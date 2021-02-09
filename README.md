@@ -29,6 +29,7 @@ This project aims to detect potential fraud cases is credit card transactions an
 The data is first loaded into this project repository and through this [link](https://media.githubusercontent.com/media/Tekhunt/Creditcard-fraud-dectection/master/fraud-data.csv) which points to the raw data in my repository I accessed it in different notebooks and scripts where it was used.
 
 ## Automated ML
+
 ##### Image below shows the AML Congiguration and Settings used in this project.
 ![aml settings](https://user-images.githubusercontent.com/65784601/107156857-045f8a80-6981-11eb-838f-a80efd9c39c2.png)
 
@@ -72,10 +73,13 @@ The type of task to run. Values the here is 'classification'
 ### Results
 
 The votingEmsemble gave the best model with an accuracy of 0.9996. The data used in this experiment is highly skewed and i suggest that in the futere beter ways of handling this  kind of skeed dataset should be applied o further improve the model. Additionally, employinhg deep model algorithm will yield significanrt imprrovement, so I highly recommend it.
-### RunDetails output
-![run1](https://user-images.githubusercontent.com/65784601/107157936-3d9af900-6987-11eb-920b-b7a81aad7a71.png)
-![details_LI](https://user-images.githubusercontent.com/65784601/107158249-34129080-6989-11eb-9fd2-0a1b1630e6a0.jpg)
 
+![run_id_LI](https://user-images.githubusercontent.com/65784601/107300600-2426a980-6a7a-11eb-981c-29f7a8990f09.jpg)
+### RunDetails output
+![run details](https://user-images.githubusercontent.com/65784601/107300610-27219a00-6a7a-11eb-9f88-c7252f05522d.png)
+
+![aml run id_LI](https://user-images.githubusercontent.com/65784601/107300622-2d177b00-6a7a-11eb-8612-f45f60e391d4.jpg)
+![aml run id](https://user-images.githubusercontent.com/65784601/107300624-2ee13e80-6a7a-11eb-97fa-42dd1c1291dc.png)
 ### View in Azure Ml Studio
 ![azure view](https://user-images.githubusercontent.com/65784601/107158376-d6327880-6989-11eb-814e-48f06f63d693.png)
 
