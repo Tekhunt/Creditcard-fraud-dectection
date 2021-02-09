@@ -138,10 +138,10 @@ Below are screenshots which demonstratethe overview of the deployed model and in
 ##
 ![save download model](https://user-images.githubusercontent.com/65784601/107313418-c488c800-6a92-11eb-9b33-a0cfb67b6f49.png)
 ![register model](https://user-images.githubusercontent.com/65784601/107313422-c6eb2200-6a92-11eb-8b15-f8982a976b08.png)
-![deployed model](https://user-images.githubusercontent.com/65784601/107313434-cbafd600-6a92-11eb-9e8f-b69e9628818a.png)
+
 ![deploy model](https://user-images.githubusercontent.com/65784601/107313438-ce123000-6a92-11eb-9125-2161d1ad522a.png)
 ### download the scoring uri and swagger uri
-
+![deployed model](https://user-images.githubusercontent.com/65784601/107313434-cbafd600-6a92-11eb-9e8f-b69e9628818a.png)
 ### Extract sample data
 ![sample data](https://user-images.githubusercontent.com/65784601/107313443-d1a5b700-6a92-11eb-9344-ad96ffa82ac4.png)
 
