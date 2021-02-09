@@ -41,7 +41,7 @@ Whether to enable early termination if the score is not improving in the short t
 
 ### experiment_timeout_minutess
 Maximum amount of time in minutes that all iterations combined can take before the experiment terminates.
-It is set to 15 minutes here.
+It is set to 5 minutes here.
 
 ### verbosity
 This is the verbosity level for writing to the log file and it is set to logging.INFO
@@ -111,8 +111,9 @@ The best model gave an accuracy of 0.998.
 ![metrics](https://user-images.githubusercontent.com/65784601/107300118-23414800-6a79-11eb-83b2-ebb76e5cadcb.png)
 
 
-##### The best model was generated using Regularization strenght of '1.0', max_iter = '150' which gave an accuracy of '0.9988' as shown in the screenshot below.
 ![hyperdriverun id](https://user-images.githubusercontent.com/65784601/107300156-3522eb00-6a79-11eb-8a47-fc7d240cc4b0.png)
+
+##### The best model was generated using Regularization strenght of '100.0', max_iter = '250' which gave an accuracy of '0.9988' as shown in the screenshot below.
 ![run_info](https://user-images.githubusercontent.com/65784601/107300178-40761680-6a79-11eb-91d7-51268cb03b71.png)
 ![run_info_LI (2)](https://user-images.githubusercontent.com/65784601/107300185-44a23400-6a79-11eb-9055-aff269f66361.jpg)
 
