@@ -83,7 +83,13 @@ The votingEmsemble gave the best model with an accuracy of 0.9996. The data used
 ## Hyperparameter Tuning
 
 
-![hpt](https://user-images.githubusercontent.com/65784601/107158728-64a7f980-698c-11eb-930b-fedeb76cdfe1.png)
+
+
+
+
+
+
+![hyperdrive settings](https://user-images.githubusercontent.com/65784601/107300124-276d6580-6a79-11eb-8acf-7b2d6aceed5c.png)
 LogisticRegression is the algorithm used in this classification task. The algorithm is a two class classification to predict between two categories(fraudulent or not fraudulent). And To improve the model we optimized the hyperparameters using the powers of Azure Machine Learning's Hyperdrive
 
 The hyperparameter space defined implies tuning the C and max_iter parameters. Random sampling, which supports discrete and continuous hyperparameters was used and the primary metric to optimize was accuracy and the the goal was to maximize.
@@ -95,15 +101,17 @@ I then defined the hyperdrive configuration and submitted the experiment
 
 ### Results
 The best model gave an accuracy of 0.998.
-![completed run](https://user-images.githubusercontent.com/65784601/107159350-b43bf480-698f-11eb-8215-704760ac6301.png)
-![hrundetails](https://user-images.githubusercontent.com/65784601/107159356-b69e4e80-698f-11eb-993f-d59c1906c316.png)
+![hyperdrive run details](https://user-images.githubusercontent.com/65784601/107300111-1de3fd80-6a79-11eb-8955-8a3974ace771.png)
+![metrics](https://user-images.githubusercontent.com/65784601/107300118-23414800-6a79-11eb-83b2-ebb76e5cadcb.png)
 
 
 ##### The best model was generated using Regularization strenght of '1.0', max_iter = '150' which gave an accuracy of '0.9988' as shown in the screenshot below.
+![hyperdriverun id](https://user-images.githubusercontent.com/65784601/107300156-3522eb00-6a79-11eb-8a47-fc7d240cc4b0.png)
+![run_info](https://user-images.githubusercontent.com/65784601/107300178-40761680-6a79-11eb-91d7-51268cb03b71.png)
+![run_info_LI (2)](https://user-images.githubusercontent.com/65784601/107300185-44a23400-6a79-11eb-9055-aff269f66361.jpg)
 
-![accuracy](https://user-images.githubusercontent.com/65784601/107159362-be5df300-698f-11eb-9036-5ec9370cc9ce.png)
 ### View in Azure ML Studio
-![azure view](https://user-images.githubusercontent.com/65784601/107159363-c74ec480-698f-11eb-83b3-b54716144784.png)
+![azure details](https://user-images.githubusercontent.com/65784601/107300131-2b00ec80-6a79-11eb-9ed8-fbaac539153f.png)
 
 This experiment can be improved using a different algorithm, using differnet features and also adding more iteration in the hyperdrive configuration which can deliver a better result.
 
